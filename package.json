@@ -4,7 +4,7 @@
   "description": "Wordle in terminal",
   "version": "0.0.1",
   "engines": {
-    "vscode": "^1.98.0"
+    "vscode": "^1.70.0"
   },
   "categories": [
     "Other"
@@ -13,8 +13,8 @@
   "main": "./extension.js",
   "contributes": {
     "commands": [{
-      "command": "wordterminal.helloWorld",
-      "title": "Hello World"
+      "command": "wordterminal.startWordTerminal",
+      "title": "Start WordTerminal"
     }]
   },
   "scripts": {
@@ -23,7 +23,7 @@
     "test": "vscode-test"
   },
   "devDependencies": {
-    "@types/vscode": "^1.98.0",
+    "@types/vscode": "^1.70.0",
     "@types/mocha": "^10.0.10",
     "@types/node": "20.x",
     "eslint": "^9.23.0",
